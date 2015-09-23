@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">How To Make (Almost) Anything</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2015-09-22T22:16:12-04:00</updated>
+<id>http://localhost:4000/</id>
+<author>
+  <name>Jasmin Rubinovitz</name>
+  <uri>http://localhost:4000/</uri>
+  <email>jasrub@gmail.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Week 2: Computer-Controlled Cutting]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/week2-computer-controlled-cutting/" />
+  <id>http://localhost:4000/week2-computer-controlled-cutting</id>
+  <published>2015-09-22T00:00:00-04:00</published>
+  <updated>2015-09-22T00:00:00-04:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://localhost:4000</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;modular-honeycomb-shelvs&quot;&gt;Modular Honeycomb Shelvs&lt;/h3&gt;
+
+&lt;p&gt;I’ve recently moved to a new appartment and wnated to make some nice storage solution that
+will be both pretty and functional.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/images/image-filename-1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;vinyl-cutting-fun&quot;&gt;Vinyl Cutting Fun&lt;/h3&gt;
+
+&lt;p&gt;I’ve also got to play with the Vinyl Cutter machine this week.
+I’ve made some fun stickers :)&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;/images/image-filename-1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;/images/image-filename-2.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/week2-computer-controlled-cutting/&quot;&gt;Week 2: Computer-Controlled Cutting&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://localhost:4000&quot;&gt;How To Make (Almost) Anything&lt;/a&gt; on September 22, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Week 1: Computer Aided Design]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/week1-computer-aided-design/" />
+  <id>http://localhost:4000/week1-computer-aided-design</id>
+  <published>2015-09-21T00:00:00-04:00</published>
+  <updated>2015-09-21T00:00:00-04:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://localhost:4000</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;final-project-idea---a-smart-helmet&quot;&gt;Final Project Idea - a Smart Helmet&lt;/h3&gt;
+
+&lt;p&gt;I commute mainly with bike, so my idea for the final project is a smart bicycle helmet.&lt;img src=&quot;/images/week1/bike_clipart.png&quot; alt=&quot;alt text&quot; /&gt;    &lt;/p&gt;
+
+&lt;p&gt;I would like to make a helmet that is controlled both from your phone and also from buttons on the handle bar.  &lt;/p&gt;
+
+&lt;p&gt;The helmet will have a front light and back lights, and you can turn on signal lights when making turns.&lt;br /&gt;
+It will also have an inside speaker, so you can listen to navigation instructions from you phone while riding.  &lt;/p&gt;
+
+&lt;p&gt;I used rhinoceros 5 to model and render the desiered helmet.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/images/image-filename-1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;/images/image-filename-1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;/images/image-filename-2.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/week1-computer-aided-design/&quot;&gt;Week 1: Computer Aided Design&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://localhost:4000&quot;&gt;How To Make (Almost) Anything&lt;/a&gt; on September 21, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
