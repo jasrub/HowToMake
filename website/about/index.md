@@ -1,21 +1,14 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+title: "About  Me"
+excerpt: ""
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+My name is Jasmin Rubinovitz.    
+I'm currently a Research Assistant and a Graduate Student in the Viral Communications group @ the MIT Media Lab.  
+Perior to that I was a software engineer at Google, and studied ceramic design at Bezalel Academy For Art and Design and Computer Science at the Hebrew University of Jerusalem.  
+I'm interested in computer human interactions and the relations between our day to day life, art and design, and developed technology.  
 
-## So Simple Theme is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+I'm taking ["How To Make (Almost) Anything"](../../../../) in fall 2015 and this site documents the things I'm making in that class.
+  
+![me](../images/about_me.jpg)

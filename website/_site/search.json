@@ -2,16 +2,16 @@
 
   
     {
-      "title"			: "Week 2: Computer-Controlled Cutting",
-      "link"			: "http://localhost:4000/week2-computer-controlled-cutting/",
+      "title"			: "Week 2  :  Computer-Controlled Cutting",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting/",
       "excerpt"		: ""
     }
   
 
   
     ,{
-      "title"			: "Week 1: Computer Aided Design",
-      "link"			: "http://localhost:4000/week1-computer-aided-design/",
+      "title"			: "Week 1  :  Computer Aided Design",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design/",
       "excerpt"		: ""
     }
   
@@ -32,9 +32,9 @@
 
   
     ,{
-      "title"			: "About the Jekyll Theme",
-      "link"			: "http://localhost:4000/about/",
-      "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
+      "title"			: "About  Me",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/about/",
+      "excerpt"		: ""
     }
   
 

@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">How To Make (Almost) Anything</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2015-09-22T22:16:12-04:00</updated>
-<id>http://localhost:4000/</id>
+<link rel="self" type="application/atom+xml" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/feed.xml" />
+<link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz" />
+<updated>2015-09-23T14:21:00-04:00</updated>
+<id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/</id>
 <author>
   <name>Jasmin Rubinovitz</name>
-  <uri>http://localhost:4000/</uri>
+  <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/</uri>
   <email>jasrub@gmail.com</email>
 </author>
 
@@ -16,25 +16,65 @@
   
 
 <entry>
-  <title type="html"><![CDATA[Week 2: Computer-Controlled Cutting]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/week2-computer-controlled-cutting/" />
-  <id>http://localhost:4000/week2-computer-controlled-cutting</id>
+  <title type="html"><![CDATA[Week 2  :  Computer-Controlled Cutting]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting</id>
   <published>2015-09-22T00:00:00-04:00</published>
   <updated>2015-09-22T00:00:00-04:00</updated>
   <author>
     <name>Jasmin Rubinovitz</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
     <email>jasrub@gmail.com</email>
   </author>
   <content type="html">
-    &lt;h3 id=&quot;modular-honeycomb-shelvs&quot;&gt;Modular Honeycomb Shelvs&lt;/h3&gt;
+    &lt;h3 id=&quot;modular-honeycomb-shelves&quot;&gt;Modular Honeycomb Shelves&lt;/h3&gt;
+&lt;p&gt;The assignment this week was to design, make, and document a press-fit construction kit.  &lt;/p&gt;
 
-&lt;p&gt;I’ve recently moved to a new appartment and wnated to make some nice storage solution that
-will be both pretty and functional.&lt;/p&gt;
+&lt;p&gt;I’ve recently moved to a new apartment and wanted to make some nice storage solution that
+will be both pretty and functional.
+My inspiration was the geometric simple design and infinity of honeycombs.  &lt;/p&gt;
+
+&lt;p&gt;I’ve used Rhino and Grasshopper to create the basic shapes the build hexagon boxes that can then build a honeycomb-like wall storage.&lt;br /&gt;
+My Grasshopper script gets as inputs the desired length of the hexagon sides, the thickness of the cardboard, and the laser offset. It is then outputs 3 shapes that I can send for printing (laser cutting)&lt;/p&gt;
+
+&lt;p&gt;The settings I’ve used with the Epilog laser cutter and given cardboard:&lt;br /&gt;
+speed: 25-29%&lt;br /&gt;
+power: 70-75%&lt;br /&gt;
+frequency: 25000&lt;br /&gt;
+Carbboard thickness: 4 mm  &lt;/p&gt;
 
 &lt;figure&gt;
-	&lt;img src=&quot;/images/image-filename-1.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
+	&lt;img src=&quot;../images/week2/design.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Planning with Rhino and Grasshopper&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The basic unit is made out of the base hexagon, that can connect with other base hexagons and creates the tiling; The squares, that connect to the base hexagon and create the walls; And the back part, which binds the whole part together and also has holes so it can be hanged on the wall.  &lt;/p&gt;
+
+&lt;p&gt;I’ve set the length parameter in my model to be 10cm, the fun thing is that I can now change this parameter and create the honeycomb shelves any size I’de like.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week2/cut.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Laser cutting the parts&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week2/pieces.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;All parts, ready to be assembled&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;../images/week2/connecting.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week2/construction.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;connecting the pieces&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week2/hanging.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Hanging on the wall&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week2/finished_2.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Final result&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;vinyl-cutting-fun&quot;&gt;Vinyl Cutting Fun&lt;/h3&gt;
@@ -43,12 +83,11 @@ will be both pretty and functional.&lt;/p&gt;
 I’ve made some fun stickers :)&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-	&lt;img src=&quot;/images/image-filename-1.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;img src=&quot;/images/image-filename-2.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
+	&lt;img src=&quot;../images/week2/Vinyl1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week2/vinyl2.jpg&quot; alt=&quot;image&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/week2-computer-controlled-cutting/&quot;&gt;Week 2: Computer-Controlled Cutting&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://localhost:4000&quot;&gt;How To Make (Almost) Anything&lt;/a&gt; on September 22, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting/&quot;&gt;Week 2  :  Computer-Controlled Cutting&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;How To Make (Almost) Anything&lt;/a&gt; on September 22, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -56,48 +95,49 @@ I’ve made some fun stickers :)&lt;/p&gt;
   
 
 <entry>
-  <title type="html"><![CDATA[Week 1: Computer Aided Design]]></title>
-  <link rel="alternate" type="text/html" href="http://localhost:4000/week1-computer-aided-design/" />
-  <id>http://localhost:4000/week1-computer-aided-design</id>
+  <title type="html"><![CDATA[Week 1  :  Computer Aided Design]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design</id>
   <published>2015-09-21T00:00:00-04:00</published>
   <updated>2015-09-21T00:00:00-04:00</updated>
   <author>
     <name>Jasmin Rubinovitz</name>
-    <uri>http://localhost:4000</uri>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
     <email>jasrub@gmail.com</email>
   </author>
   <content type="html">
     &lt;h3 id=&quot;final-project-idea---a-smart-helmet&quot;&gt;Final Project Idea - a Smart Helmet&lt;/h3&gt;
 
-&lt;p&gt;I commute mainly with bike, so my idea for the final project is a smart bicycle helmet.&lt;img src=&quot;/images/week1/bike_clipart.png&quot; alt=&quot;alt text&quot; /&gt;    &lt;/p&gt;
+&lt;p&gt;Our first assignment was to model possible final project.  &lt;/p&gt;
+
+&lt;p&gt;I commute mainly with bike, so my idea for the final project is a smart bicycle helmet.&lt;img src=&quot;../images/week1/bike_clipart.png&quot; alt=&quot;alt text&quot; /&gt;    &lt;/p&gt;
 
 &lt;p&gt;I would like to make a helmet that is controlled both from your phone and also from buttons on the handle bar.  &lt;/p&gt;
 
 &lt;p&gt;The helmet will have a front light and back lights, and you can turn on signal lights when making turns.&lt;br /&gt;
 It will also have an inside speaker, so you can listen to navigation instructions from you phone while riding.  &lt;/p&gt;
 
-&lt;p&gt;I used rhinoceros 5 to model and render the desiered helmet.&lt;/p&gt;
+&lt;p&gt;I used Rhino for modeling and rendering the desiered helmet.&lt;/p&gt;
 
-&lt;figure&gt;
-	&lt;img src=&quot;/images/image-filename-1.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
+&lt;figure align=&quot;center&quot;&gt;
+	&lt;img align=&quot;center&quot; src=&quot;../images/week1/helmet_1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;First steps of modeling&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure align=&quot;center&quot;&gt;
+	&lt;img align=&quot;center&quot; src=&quot;../images/week1/helmet_2.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And the results:
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;../images/week1/render_1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week1/render_2.jpg&quot; alt=&quot;image&quot; /&gt;
 &lt;/figure&gt;
 &lt;figure class=&quot;half&quot;&gt;
-	&lt;img src=&quot;/images/image-filename-1.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;img src=&quot;/images/image-filename-2.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;figcaption&gt;Caption describing these two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
+	&lt;img src=&quot;../images/week1/render_3.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week1/render_4.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/week1-computer-aided-design/&quot;&gt;Week 1: Computer Aided Design&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://localhost:4000&quot;&gt;How To Make (Almost) Anything&lt;/a&gt; on September 21, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design/&quot;&gt;Week 1  :  Computer Aided Design&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;How To Make (Almost) Anything&lt;/a&gt; on September 21, 2015.&lt;/p&gt;
   </content>
 </entry>
 

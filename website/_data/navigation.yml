@@ -1,7 +1,10 @@
 # Site navigation links
 
 - title: Project List
-  url: /index.html/
+  url: /index.html
 
 - title: About me
   url: /about/
+
+- title: How To Make (Alomost) Anything
+  url: http://fab.cba.mit.edu/classes/863.15/
