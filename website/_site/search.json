@@ -2,7 +2,55 @@
 
   
     {
-      "title"			: "Week 2  :  Computer-Controlled Cutting",
+      "title"			: "Embedded Programming & Networking and Communications",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week8-embedded-programming/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Molding and Casting",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week7-molding-and-casting/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Electronics Design",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week6-electronics-design/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Computer-Controlled Machining",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week5-computer-controlled-machining/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "3D Scanning and Printing",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week4-3d-printing-and-scanning/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Electronics Production",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week3-electronics-production/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Computer-Controlled Cutting",
       "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting/",
       "excerpt"		: ""
     }
@@ -10,7 +58,7 @@
 
   
     ,{
-      "title"			: "Week 1  :  Computer Aided Design",
+      "title"			: "Computer Aided Design",
       "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design/",
       "excerpt"		: ""
     }

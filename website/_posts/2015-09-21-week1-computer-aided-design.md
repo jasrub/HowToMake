@@ -1,6 +1,8 @@
 ---
 layout: page
-title: "Week 1  :  Computer Aided Design"
+weekNum: "Week 1"
+title: "Computer Aided Design"
+thumb: "images/week1/thumb.jpg"
 excerpt: ""
 comments: false
 share: false

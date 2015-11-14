@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">How To Make (Almost) Anything</title>
+<title type="text">Jasmin Rubinovitz</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/feed.xml" />
 <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz" />
-<updated>2015-09-23T14:21:00-04:00</updated>
+<updated>2015-11-04T15:01:54-05:00</updated>
 <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/</id>
 <author>
   <name>Jasmin Rubinovitz</name>
@@ -16,7 +16,674 @@
   
 
 <entry>
-  <title type="html"><![CDATA[Week 2  :  Computer-Controlled Cutting]]></title>
+  <title type="html"><![CDATA[Embedded Programming & Networking and Communications]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week8-embedded-programming/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week8-embedded-programming</id>
+  <published>2015-11-02T00:00:00-05:00</published>
+  <updated>2015-11-02T00:00:00-05:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+	&lt;img src=&quot;../images/week8/open.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;part-1---embedded-programing&quot;&gt;Part 1 - Embedded Programing&lt;/h2&gt;
+
+&lt;h3 id=&quot;a-morse-code-receiver-and-transmitter&quot;&gt;A Morse Code Receiver and Transmitter&lt;/h3&gt;
+&lt;p&gt;This week’s assignment was to program the board we made &lt;a href=&quot;../week6-electronics-design/index.html&quot;&gt;two weeks ago&lt;/a&gt; to do something, with as many different programming languages and programming environments as possible.&lt;br /&gt;
+I wanted to use all the features I have on my board - the button, the LED and the serial port, so I’ve decided to make a &lt;a href=&quot;https://en.wikipedia.org/wiki/Morse_code&quot;&gt;Morse code&lt;/a&gt; receiver and transmitter.&lt;br /&gt;
+When the board is connected to the computer, if you type a letter on the computer keyboard, the LED will blink that letter’s Morse code. You can also press the button different combinations of dots and dashes (short and long presses) and the letter you pressed will print on the screen.&lt;/p&gt;
+
+&lt;h4 id=&quot;programming-the-board-using-arduino-ide&quot;&gt;Programming the Board using Arduino IDE&lt;/h4&gt;
+&lt;p&gt;I used &lt;a href=&quot;http://highlowtech.org/?p=1695&quot;&gt;this great tutorial&lt;/a&gt; to get the Arduino IDE working with the ATTiny44 that is on my board.&lt;br /&gt;
+One very confusing point when programming with both plain C and the Arduino environment is the pins numbers:&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/datasheet.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; This is the ATTiny drawing from the &lt;b&gt;&lt;a href=&quot;http://academy.cba.mit.edu/classes/embedded_programming/doc8183.pdf&quot;&gt;datasheet&lt;/a&gt;&lt;/b&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/attiny44.png&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; This is the ATTiny drawing from the tutorial &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The pin numbers written in the second drawing are the correct one to use in the Arduino IDE.
+Since I connected the LED to PA7 and the button to PA3 I used 7 and 3 accordingly.&lt;br /&gt;
+Another thing to notice is the clock settings in Arduino. My board has a 20Mhz Crystal on it, so I set the clock to 20Mhz (external) and had to click on “Burn Bootloader” before uploading the sketch to the board.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/choosing_clock.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; choosing the clock &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Other than that I found it very nice to program the board using the Arduino IDE, thanks to all the libraries that are already written for it and makes a lot of things very simple and abstract.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/programming.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; programming the board using the programmer I made on &lt;b&gt;&lt;a href=&quot;../week3-electronics-production/index.html&quot;&gt;week 3&lt;/a&gt;&lt;/b&gt; &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The sketch itself can be downloaded from &lt;a href=&quot;../images/week8/my_morse.ino&quot;&gt;here&lt;/a&gt;.
+I used binary numbers to represent to Morse code, in order to save space. 
+A dot is represented by 0 and a dash by 1. All letters are sorted in an array and each letter location is it’s Morse code.
+Sorting the letters in the array is simple - since Morse letters can be sorted by a &lt;a href=&quot;http://apfelmus.nfshost.com/articles/fun-with-morse-code/morse-tree.png&quot;&gt;binary tree&lt;/a&gt; I just made a string of all the letters in the tree going over each row from left to right, adding question marks instead of empty node in the tree.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;letters&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;ETIANMSURWDKGOHVF-L?PJBXCYZQ.?54?3???2??+????16=/?????7???8?90?&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Interesting thing is that it uses 3,736 bytes (91%) of program storage space. Maximum is 4,096 bytes. That’s a lot. The main reason is that for serial connection I use SoftwareSerial library, and this takes most of the memory space.&lt;/p&gt;
+
+&lt;h4 id=&quot;programming-the-board-with-c&quot;&gt;Programming the board with C&lt;/h4&gt;
+&lt;p&gt;I then wanted to create the exact same software in C, and test the memory usage difference.
+In C, we use the same pin names as in the datasheet (so PA7 for my led and PA3 for my button).
+I wrote the part of receiving letters from the keyboard and blinking Morse code. that worked fine (but took a lot more lines of code). I then needed to write a C implementation for Arduino function “millis()” , to count the elapsed milliseconds in order to get the time the button is pressed. this started to get a little bit too complicated and I left it aside for another time, in order to try and do some networking and communications as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-2---networking-and-communications&quot;&gt;Part 2 - Networking and Communications&lt;/h2&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/all.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since this year we are missing the networking and communications week, this was thought in this week’s recitation and was given as a bonus assignment.&lt;br /&gt;
+The assignment was to design and build a wired or wireless network connecting at least two processors.&lt;br /&gt;
+For my final project, I’m planning to make a smart bicycle helmet, and put buttons on the steering wheel that will turn on turning lights on the helmet. I also want to add a small speaker inside the helmet the could give navigation instructions from a phone. This will require wireless communications between the buttons on the steering wheel and the LEDs in the helmet and also communications between the speaker in the helmet and the phone.&lt;br /&gt;
+I figured the best way to connect all the above would be Bluetooth and decided to try and implement a simple communication module this week.&lt;/p&gt;
+
+&lt;p&gt;I used the HM-10 Bluetooth module, that is explained in &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/doc/tutorials/programming/bluetooth.html&quot;&gt;Thras’s tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/bt_module.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;The BT module should be connected to the FTDI connection that is on my board, but then I had a few issues:
+ - The same connection is also supplying the power to the board. 
+ - The locations of GND, VCC TX and RX on each board are not similar.&lt;br /&gt;
+ - The HM-10 is rated to operate at a supply voltage of 2.0 to 3.7 volts, and its I/O are 3.3V tolerant! The ATtiny is more flexible and has operating voltage of 1.8 - 5.5V.
+ - I couldn’t find any female-female cables around the electronics shop and had to think of a creative way to connect the BT and the board. &lt;/p&gt;
+
+&lt;p&gt;After some thinking, Thras advised that I’ll make a board that connects the two parts and also supply power. So this is what I did, I also added a 3.3V Regulator to that board for the BT.  &lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/bt_2_traces.png&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Traces for my small connecting board &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/stuffed.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; connecting board stuffed &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I now have two boards connected to BT modules. hurray!&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/building_network.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now comes programming the communication part.
+For testing, I used the code from &lt;a href=&quot;http://arduinofy.blogspot.com/2013/05/attiny-bluetooth.html&quot;&gt;this page&lt;/a&gt;
+changing RxD to 0, TxD to 1, and the led pin to 7.&lt;/p&gt;
+
+&lt;p&gt;I can now control the LED on the board by sending 0 or 1 from my computer, via Bluetooth, that’s very exciting! :)  I’ll continue to work on this on the following week, to be able to press the button in one board to light the LED on the other.  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week8/bt_working.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Success. LED on board powered via Bluetooth &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week8-embedded-programming/&quot;&gt;Embedded Programming &amp; Networking and Communications&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on November 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Molding and Casting]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week7-molding-and-casting/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week7-molding-and-casting</id>
+  <published>2015-10-28T00:00:00-04:00</published>
+  <updated>2015-10-28T00:00:00-04:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+	&lt;img src=&quot;../images/week7/open.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;This week’s assignment was to design a 3D mold, machine it, and cast parts from it.&lt;br /&gt;
+As a ceramic design student, I have vast experience in mold making.&lt;br /&gt;
+I’ve made a lot a plaster molds, used for &lt;a href=&quot;https://en.wikipedia.org/wiki/Slipcasting&quot;&gt;ceramic slipcasting&lt;/a&gt;. I’ve also made many silicon molds for different plastics, plasters, and wax mold for glass casting.&lt;br /&gt;
+I’ve never designed a mold using CAD tools. I found out that this is a more complicated process than what I expected.&lt;br /&gt;
+Saying that, this new option of making CAD molds was really exciting and I’m sure I’ll use this method again.&lt;/p&gt;
+
+&lt;h4 id=&quot;design&quot;&gt;Design&lt;/h4&gt;
+&lt;p&gt;Since this was a very busy week for me as an RA, I decided to make something simple - a homage to the &lt;a href=&quot;http://www.sheilazellerinteriors.com/articles/the-black-house-bird&quot;&gt;Eames famous house bird&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/eames_bird.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The Eames black house bird &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I used Rhino for designing the mold. Modeling the bird itself was quite simple. I separated the bird’s legs from the body, planning to glue them to the bird later, or using metal wires as legs instead.&lt;br /&gt;
+After the bird was complete I added a cutting plane in its center, in a size little bit smaller than the piece of wax we got, leaving some room for walls. I then also added keys (half spheres, added to one side and  excluded from the other). &lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/rhino.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Designing with Rhino &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;machining-the-model-for-molding&quot;&gt;Machining the model for molding&lt;/h4&gt;
+&lt;p&gt;There were a few mistakes in my design - I wanted to make the bird as big as I can, this made my walls too thin, and some of them were lost in the milling. Also, I’ve made the keys too small, not considering the end mill size, and they were barely seen on the wax.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/milling.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Milling the piece of wax &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We worked with PartWorks 3D for making the toolpaths for milling the mold. I wanted to fit the 2 sides of my bird on the same piece of wax. In the software there is no option of adding 2 stl files for one toolpath, nor  option for manually setting the origin of the model inside the material, The program automatically locates the model in the center of the material.&lt;br /&gt;
+I solved this issue by setting the material width in the program to be half of the width of my real material.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/one_side.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; First side done &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/milling_done.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Two sides done. I lost 3 walls in the process &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;making-the-mold&quot;&gt;Making the mold&lt;/h4&gt;
+&lt;p&gt;I used cardboard pieces instead of the missing walls. I used putty to make a spout.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/ready_for_mold.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Ready for mold making &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Then just poured Oomoo on it and left it for the night. (Oomoo is the silicon we used for mold making).  &lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/oomoo.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Oomoo &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I mold released quickly and easily and came out nice, except for one small bubble on the bird’s head.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/molds.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Finished Oomoo molds &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;casting&quot;&gt;Casting&lt;/h4&gt;
+&lt;p&gt;Since the keys on my mold were too small, it was really hard to hold the two parts of the mold together correctly, and I decided to first cast each part separately.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/ready_for_cast.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Ready for casting &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/casting.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Casting dryStone in two parts of the mold &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When taking the cast out, the bird legs were too thin and broke immediately. the bird’s body parts were a bit stronger but still broke when I pressed them too hard together. I’ll cast more parts when I have some free time (this is the fun things about molds - you can cast many parts out of one mold).&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/cast.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Eventually, when looking just on one half, it’s not that similar to the Eames house bird, but I still really like the result.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week7/done.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week7-molding-and-casting/&quot;&gt;Molding and Casting&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on October 28, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Electronics Design]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week6-electronics-design/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week6-electronics-design</id>
+  <published>2015-10-20T00:00:00-04:00</published>
+  <updated>2015-10-20T00:00:00-04:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+	&lt;img src=&quot;../images/week6/open.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;This week’s assignment was to redraw the echo hello-world board, add a button and LED to it, and make it.&lt;br /&gt;
+Since I don’t have any experience with electronics before, this week involved a lot of reading and learning. I do feel I had A LOT of progress in my electronics understanding since the beginning of this week.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/learning.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Learning electronics &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;designing-the-board&quot;&gt;Designing The Board&lt;/h4&gt;
+&lt;p&gt;I used &lt;a href=&quot;http://www.cadsoftusa.com/&quot;&gt;Eagle&lt;/a&gt; for redrawing the board.
+First, I added all the components from the &lt;a href=&quot;http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.png&quot;&gt;original board drawing&lt;/a&gt; and then I connected them following the board traces.
+I then added one LED from VCC to Ground, that will light when the board is connected to power (this should be an indication that the board is routed ok).&lt;br /&gt;
+I added another LED to PA7 I/O pin of the ATTiny44 and a button to PA3, so I can later program their behavior.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/schematics.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The board schematic &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;After designing the schematics comes the hard part of routing the board.&lt;br /&gt;
+This felt like and endless puzzle. Every connection I made got in the way of another connection. Eventually I added one jumper to solve my puzzle.  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/routing.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Final board drawing &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/traces.png&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The traces I used. I added my initials using Photoshop &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;making-the-board&quot;&gt;Making the board&lt;/h5&gt;
+&lt;p&gt;First I had to mill to board. since we already did this a few weeks ago, I was already familiar with the fab modules and the Roland mill.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/milling.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Milling machine at work &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/milled_board.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Milled board &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Next, I had to stuff the board with components, I wanted to use a 300-380Ω resistor for connecting the LEDs, since there were no such resistors in the CBA shop I put 499Ω on top of a 1kΩ, so they are in parallel, then the value is  &lt;img src=&quot;../images/week6/eq.png&quot; alt=&quot;equation&quot; /&gt; =~ 330Ω
+When soldering the board, I soldered the FTDI connector wrong, and when trying to de-solder it I accidentally also removed the copper trace that connected it’s VCC pin to the board.&lt;br /&gt;
+I decided that before making the board all over again, I’ll try to fix it with a hack. so I connected a wire from the FTDI pin to the VCC wire trace. surprisingly that worked.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/final_board.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Final board &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/wire_hack.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; My wire hack &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I then wanted to test my board.
+First I connected it to the power supply (my laptop) and the VCC -&amp;gt; GND LED lighted up. This was a very happy moment! :)  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/success.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Success! &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Then I also connected it the programmer I made in week 3 and programmed it using &lt;a href=&quot;http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.program.png&quot;&gt;these instructions&lt;/a&gt;. That also worked well, and confirmed my board is working fine. I did not test the LED an button that are connected to the microcontroler yet. I’ll do that in embedded programming week (which is week 8)&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week6/programming.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Programming the board &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week6-electronics-design/&quot;&gt;Electronics Design&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on October 20, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Computer-Controlled Machining]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week5-computer-controlled-machining/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week5-computer-controlled-machining</id>
+  <published>2015-10-13T00:00:00-04:00</published>
+  <updated>2015-10-13T00:00:00-04:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+	&lt;img src=&quot;../images/week5/open.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;legged-hexagon-table&quot;&gt;3 Legged Hexagon Table&lt;/h3&gt;
+&lt;p&gt;This week’s assignment was to make something big.  &lt;/p&gt;
+
+&lt;h4 id=&quot;design&quot;&gt;Design&lt;/h4&gt;
+&lt;p&gt;I wanted to make a nice dining table for my apartment.&lt;br /&gt;
+I thought this would be a great opportunity to learn Solidworks and improve my CAD skills. It was important for me to keep my design parametric, so if I buy nicer wood with different thickness I could just change the thickness variable and cut the same design, I also wanted to be able to scale the table easily, or just change the hieght or diameter if I wanted to.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/complete_design.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The table top &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/leg_side_view.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Side view of the leg and support &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/side_view.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The table is constructed from four different parts: the hexagon table top, the legs, support piece for each leg and a small triangle that sits in the hole in the middle of the table top.
+In order to keep the table top as clean and as smooth as possible, I designed pockets in the lower side of the table top that are exactly the size of the table legs, so the table legs sit in those pockets, but are not seen on the table top, for it to sit exactly and not move, there is a this slot in each pocket, and a thin part on top of each leg (made by pocketing) that fits inside the slot. tha small triangle keeps everything together.&lt;br /&gt;
+The legs also fit together with the help of pockets in the intersection lines, so the can be as tight as possible with only the small triangle space between them.&lt;/p&gt;
+
+&lt;h4 id=&quot;toolpathing&quot;&gt;Toolpathing:&lt;/h4&gt;
+&lt;p&gt;We learned how to use the ShopBot and got a 4’ X 8’ OSB sheet, 7/16” thick.
+The OSB is not a fun material, there were a lot of splinters around and in my hands. But except the splinters the milling came out good and accurate and the pockets looked good. 
+I am planning to buy nice wood and cut this again, so this time I’ll cut thing right. (and update this page with pictures of the nice table). &lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/mirrored_legs.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The dxf file ready for toolpathing. Red is for pocketing, purple for cutting inside and green for cutting outside &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;cutting&quot;&gt;Cutting&lt;/h4&gt;
+
+&lt;p&gt;My design has slots for half of the material thickness (that pocketed parts fit in), these slots are 7/32” wide, so I could not make them with th 1/4” endmill.
+Since the rest of the cuts could be made with the bigger endmill, I first cut everything with 1/4” endmill and then changed the endmill to 1/8” and cut the thin slots. &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/toolpath.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;  The toolpath ready for cut&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/machine_working.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The ShopBot cutting my part&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/board.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The board ready &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;constructing&quot;&gt;Constructing&lt;/h4&gt;
+&lt;p&gt;I made a mistake while making the toolpath and mirrored 2 of the tables legs (explained more detailed at the notes of this post). Due to lack of time and material to cut new parts, I had to use wood glue and clamps to hold the parts together:&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/building.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/building2.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I let the glue dry for 24 and this is the result:  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/done.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week5/with_cup.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Cup on table to demonstrate the size. Each hexagon side is 23&quot;, the table hight is 29&quot; &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;All in all I’m happy with this table. I’m more happy that I learned a lot, both about working with Solidworks and parameters, and also about toolpathing and machining in general. I keep thinking of other things I now want and able to make.&lt;/p&gt;
+
+&lt;h4 id=&quot;notes&quot;&gt;Notes:&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;I learned a very important lesson during the toolpathing and cutting part: when making the toolpath for the cut, I was not thinking two much, and mirrored two on the legs to fit nicer on the sheet. since my design is not completely symmetrical (there are slots with 0.25” thickness, that pocketed parts go inside), the mirrored legs did not fit. since I did not have time and enough material to cut 2 new legs, I cut another mirrored one and made the desk by sanding parts in the legs that did not fit and gluing everything together instead of using the slots for construction.&lt;/li&gt;
+  &lt;li&gt;During my online search for inspirations I ran into the really cool &lt;a href=&quot;https://www.opendesk.cc&quot;&gt;Opendesk&lt;/a&gt; website. Which is a global platform for local making. They have beautiful open source furniture designs that inspired my design a lot and gave me great ideas for the joints.&lt;/li&gt;
+  &lt;li&gt;Note that it’s very important where you put tabs, not inside slots! (luckily I learned that when cutting test parts for checking slots width.)&lt;/li&gt;
+  &lt;li&gt;Expect to spend much more time on design when working with a new tool. Working with Solidworks took much longer then I planned to achieve the desired results.&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week5-computer-controlled-machining/&quot;&gt;Computer-Controlled Machining&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on October 13, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[3D Scanning and Printing]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week4-3d-printing-and-scanning/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week4-3d-printing-and-scanning</id>
+  <published>2015-10-05T00:00:00-04:00</published>
+  <updated>2015-10-05T00:00:00-04:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+	&lt;img src=&quot;../images/week4/open.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;designing-and-3d-printing&quot;&gt;Designing and 3D Printing&lt;/h3&gt;
+&lt;p&gt;The first assignment of this week was to design and 3D print an object that could not be made subtractively.  &lt;/p&gt;
+
+&lt;h5 id=&quot;design&quot;&gt;Design&lt;/h5&gt;
+&lt;p&gt;I was Inspired by the &lt;a href=&quot;https://www.simplydifferently.org/Helix_Zome&quot;&gt;Helix Zome&lt;/a&gt; , that was developed by &lt;a href=&quot;http://heliss.com/&quot;&gt;Nicolas Causse&lt;/a&gt; in 2006. The term Zome comes from “zonohedron” + “dome” and is often used for unusual dome variants.
+The fun thing is, that one of the ways of describing the helix zome is parametric, so I could, with a few changes, to model the zome using Rhino and Grasshopper.
+In the original idea, since this is used as a zome, the helixes go from 0 to Pi. I wanted to create an egg shape, which is actually two zomes, so in my design α = -π .. π &lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;../images/week4/gh_script.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week4/python_code.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;The Grasshopper script and python code that create the model&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;!-- &lt;video width=&quot;320&quot; height=&quot;240&quot; autoplay&gt; --&gt;
+	&lt;video autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    	&lt;source src=&quot;../images/week4/movie.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+		Your browser does not support the video tag.
+	&lt;/video&gt;
+	&lt;figcaption&gt;Animation of completed basic model&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I then added more modifications - Creating a small zome inside the zome, and making a zome from single helixes (removing the second for loop from the code).&lt;/p&gt;
+
+&lt;p&gt;My grasshopper scripts can be downloaded here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;../helix_zome.gh&quot;&gt;Basic zome&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../zome_small_inside.gh&quot;&gt;zome with small zome inside&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;../zome_one_side.gh&quot;&gt;zome with only one set of helixes&lt;/a&gt;  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;printing&quot;&gt;Printing&lt;/h5&gt;
+&lt;p&gt;I’ve printed the three variations of the zome to test different printing options and parameters.  &lt;/p&gt;
+
+&lt;h6 id=&quot;a-zome-inside-a-zome&quot;&gt;A Zome Inside a Zome&lt;/h6&gt;
+&lt;p&gt;I’ve created a model of a small zome (30 mm diameter) inside a bigger zome (70 mm diameter), not connected.
+I’ve sent this .stl file to Tom at the CBA shop, to be printed by the Dimension 3D printer.&lt;br /&gt;
+The Dimension hase the advantage of printing a support material that is different from the printed material, and so I used this to print the complete model of the zome with the small zome inside - all in one piece.&lt;br /&gt;
+This could not be done using the ultimaker.&lt;br /&gt;
+This model is very complex and required a lot of support material. the printing took 20 hours.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/dimension_printing.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The Dimension printer printing my model. You can&#39;t see much, just a lot of support material &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/zome_inside.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Final result - The Zome Rattle &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/zoom_small_zome.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Zoom in on the small zome &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h6 id=&quot;the-double-helix-zome&quot;&gt;The Double Helix Zome&lt;/h6&gt;
+&lt;p&gt;I also wanted to try and print with the Ultimaker 2. since the complete zome does not have a base, I would have needed a lot of support material to be printed, which would have make the print very long, and also I would had a lot of work after printing, cleaning the model.
+In order to solve this issue, I cut the model in the middle, and printed each half separately. This way I could print with no support at all and it took a few seconds to glue the two parts after the print was finished. &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/cura.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The two halves ready for print &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There is a little glitch in one of the prints. There was a small part that moved not long after the print started. but the Ultimaker managed to continue the print normally and I’m only left with this small print error on my model.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/printer_at_work.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Beginning of the print &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/printing.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Printing &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/double_zome_half.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Finished half on the printer bed &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/double_zome_half2.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/print_error.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Completed model &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h6 id=&quot;the-single-helix-zome&quot;&gt;The Single Helix Zome&lt;/h6&gt;
+&lt;p&gt;After these two prints came out successfully I decided to print a smaller zome, with single helix, which has a more interesting shape (in my opinion).&lt;br /&gt;
+I used the same technique as in the previous print with the Ultimaker - printing two halves and then gluing them together.
+This print is my favorite.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/halves_single_zome.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Two halves &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/single_zome2.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The single zome &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/all_zomes.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The three zomes &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’ve also used this model for another assignment I had this week.&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=EfQID5LcnuA&quot;&gt;This&lt;/a&gt; is a short movie documenting the design and print process.  &lt;/p&gt;
+
+&lt;h3 id=&quot;d-scanning&quot;&gt;3D Scanning&lt;/h3&gt;
+&lt;p&gt;The second assignment of this week was to 3D scan an object, and optionally print it.
+I’ve tried 3D scanning before with different DIY methods - 123D catch app and a kinect sensor, and was never quite happy with the result.
+I tried using the Sense scanner to scan my ear, but too many details were missing.  &lt;/p&gt;
+
+&lt;p&gt;Since the fall is coming to Cambridge, there are lots of pine cones outside my house, and I really love pine cones. I decided to try and scan one with the NextEngine 2020i Scanner, that has 0.005” resolution.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/pine_cone_on_scannar.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; scanning the small pine cone. I&#39;ve made a base for the pine cone using hot glue so I could scan it in standing position and it did not move &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I used MeshLab to smooth and reconstruct the scanned model (Poisson Reconstruction, with the following parameters: Octree Depth - 11, Solver Divide - 7, Sample per Node - 1 and Surface offsetting - 1).&lt;br /&gt;
+I used Rhino to make a flat base for the pine cone.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;../images/week4/meshlab.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week4/rhino.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Refining the model using MeshLab and Rhino&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I printed the finished model on the Ultimaker.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/pine_cone_model.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The printed scan &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week4/pine_and_model.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The printed model near the original pine cone&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The results this time were surprisingly good!  &lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week4-3d-printing-and-scanning/&quot;&gt;3D Scanning and Printing&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on October 05, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Electronics Production]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week3-electronics-production/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week3-electronics-production</id>
+  <published>2015-09-29T00:00:00-04:00</published>
+  <updated>2015-09-29T00:00:00-04:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;my-first-circuit-board&quot;&gt;My First Circuit Board&lt;/h3&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week3/open2.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;The assignment this week was to make the FabISP in-circuit programmer.&lt;br /&gt;
+I’ve never dealt with electronics before, so I was a bit intimidated with this assignment.&lt;br /&gt;
+I Decided to work very slowly, step by step, to make sure I understand and do everything correctly.&lt;br /&gt;
+I followed &lt;a href=&quot;http://fabacademy.org/archives/content/tutorials/05_Electronics_Production/Assemble_and_Program_FabISP.html&quot;&gt;this great tutorial&lt;/a&gt; which was very helpful. &lt;/p&gt;
+
+&lt;p&gt;The first time, after I finished stuffing the board with all components, I got an error saying I should double check connection and try again. After triple checking all connections and soldering with the help of Thras, our TA, we got to a conclusion that there is probably something wrong with the attiny44 chip, and it would be best if I just make a new board from scratch.&lt;br /&gt;
+I think this was a great decision. The second board took me less then half of the time to make, it came out prettier and worked perfectly. And also, most imporantly, I feel much more confident about my soldering skills now.  &lt;/p&gt;
+
+&lt;h4 id=&quot;making-the-board&quot;&gt;Making the board:&lt;/h4&gt;
+
+&lt;h5 id=&quot;milling&quot;&gt;Milling&lt;/h5&gt;
+
+&lt;p&gt;The first step is milling the board.&lt;br /&gt;
+This is pretty simple. I just had to load the settings, that were already on the computer in the shop, to the &lt;a href=&quot;http://fabmodules.org/&quot;&gt;fab modules&lt;/a&gt;. I used a new mill head so I changed the speed to 3.7 mm/s and the cut depth to 0.12 mm.  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week3/milling_machine.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Milling machine at work &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;On my second board I changed the number of offsets to -1 in order cut everything but the traces, this took about 6 minutes more for milling, but preffer it since I think it looks cleaner, and is easier to debug that way.  &lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;../images/week3/first_board.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week3/second-board.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;First board on the left, 4 offsets.  Second board on the right, filled.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;soldering&quot;&gt;Soldering&lt;/h5&gt;
+&lt;p&gt;After milling comes the hard part - soldering.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week3/soldering.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Solder iron and my board &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week3/first-steps.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;First steps&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week3/first-board-soldered.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;First Board Soldered&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week3/second_board_soldered.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Second Board Soldered - The Soldering here is much nicer &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h5 id=&quot;testing-and-programming-the-board&quot;&gt;Testing and Programming The Board&lt;/h5&gt;
+&lt;p&gt;The last step is connecting the board to the computer an program it to be a programmer.&lt;br /&gt;
+As mentioned, in my first attempt, this did not go well. I get blinking orange light on the ATAVRISP2 Programmer, which means something is wrong with my connections.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week3/testing.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Orange light on the ATAVRISP2 Programmer&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At the second attempt this went great. I got green light on my first try.
+After programming my programmer I removed the jumpers, and - voilà!&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week3/last.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;Finished board with the first board behind.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week3-electronics-production/&quot;&gt;Electronics Production&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on September 29, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Computer-Controlled Cutting]]></title>
   <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting/" />
   <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting</id>
   <published>2015-09-22T00:00:00-04:00</published>
@@ -87,7 +754,7 @@ I’ve made some fun stickers :)&lt;/p&gt;
 	&lt;img src=&quot;../images/week2/vinyl2.jpg&quot; alt=&quot;image&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting/&quot;&gt;Week 2  :  Computer-Controlled Cutting&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;How To Make (Almost) Anything&lt;/a&gt; on September 22, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week2-computer-controlled-cutting/&quot;&gt;Computer-Controlled Cutting&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on September 22, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -95,7 +762,7 @@ I’ve made some fun stickers :)&lt;/p&gt;
   
 
 <entry>
-  <title type="html"><![CDATA[Week 1  :  Computer Aided Design]]></title>
+  <title type="html"><![CDATA[Computer Aided Design]]></title>
   <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design/" />
   <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design</id>
   <published>2015-09-21T00:00:00-04:00</published>
@@ -137,7 +804,7 @@ It will also have an inside speaker, so you can listen to navigation instruction
 	&lt;img src=&quot;../images/week1/render_4.jpg&quot; alt=&quot;image&quot; /&gt;
 &lt;/figure&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design/&quot;&gt;Week 1  :  Computer Aided Design&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;How To Make (Almost) Anything&lt;/a&gt; on September 21, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week1-computer-aided-design/&quot;&gt;Computer Aided Design&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on September 21, 2015.&lt;/p&gt;
   </content>
 </entry>
 

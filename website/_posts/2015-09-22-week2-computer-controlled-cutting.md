@@ -1,6 +1,8 @@
 ---
 layout: page
-title: "Week 2  :  Computer-Controlled Cutting"
+weekNum: "Week 2"
+title: "Computer-Controlled Cutting"
+thumb: "images/week2/thumb.jpg"
 excerpt: ""
 comments: false
 share: false
