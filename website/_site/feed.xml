@@ -4,13 +4,674 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/feed.xml" />
 <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz" />
-<updated>2015-11-04T15:01:54-05:00</updated>
+<updated>2015-12-15T14:01:50-05:00</updated>
 <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/</id>
 <author>
   <name>Jasmin Rubinovitz</name>
   <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/</uri>
   <email>jasrub@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[The Bike Helmet]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/final-project/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/final-project</id>
+  <published>2015-12-15T00:00:00-05:00</published>
+  <updated>2015-12-15T00:00:00-05:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+	&lt;img src=&quot;../images/final/open.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;idea&quot;&gt;Idea&lt;/h3&gt;
+
+&lt;p&gt;When commuting with my bicycle at night, I feel almost invisible, and very unsafe. Also, many time I find myself hoping I could signal the cars and riders around me that I am about to stop or turn.  These reasons are what made me make my smart bike helmet, I also thought that this helmet could be a great integration of all the different thing I learned through the semester and a way to learn some more.  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	 &lt;figcaption&gt;The bike helmet I designed during the [first week](../week1-computer-aided-design/index.html) when thinking of a final project.&lt;/figcaption&gt; 
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
+
+&lt;p&gt;I was inspired by the &lt;a href=&quot;http://www.cardboardtech.com/&quot;&gt;cardboard bicycle&lt;/a&gt; made 2 years ago in israel. If you can make an entire bike out of cardboard and ride it safely, could you make a eco friendly helmet to fit?&lt;br /&gt;
+ I then found out that someone as already thought about this before me - &lt;a href=&quot;http://www.kraniums.com/&quot;&gt;Kraniums&lt;/a&gt; and they are selling a cardboard helmet that has proved to be safer than some rigid foam helmets.&lt;br /&gt;
+ This led me to the decision that the skeleton for my helmet will be laser cut cardboard - it is light, safe, and easy to make.  &lt;/p&gt;
+
+&lt;p&gt;I measured my head and as a first test made an half ellipsoid and cut it out. this worked great, so I used Rhino to design a nicer looking helmet.  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	 &lt;figcaption&gt;The helmet I designed&lt;/figcaption&gt; 
+&lt;/figure&gt;
+&lt;p&gt;I used a great Grasshopper script I found &lt;a href=&quot;http://www.grasshopper3d.com/forum/topics/a-solid-waffle-for-laser&quot;&gt;here&lt;/a&gt; to create waffle construction.&lt;/p&gt;
+
+&lt;h3 id=&quot;making-the-helmet&quot;&gt;Making The Helmet&lt;/h3&gt;
+&lt;p&gt;I started by laser cutting cardboard.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	 &lt;figcaption&gt;Laser cutting the helmet parts&lt;/figcaption&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;After construction the helmet together and trying it out, I decided I need to make a rigid top for it.
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;../images/final/half_elipsoid_helmet.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/cardboard_sizes_and_shapes.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/laser_cut_cardboard.jpg&quot; alt=&quot;image&quot; /&gt;
+	 &amp;lt;figcaption&amp;gt;Trying out the cardboard helmet.&amp;lt;/figcaption&amp;gt; 
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;I first decided to try composites. This is explained more on composite week page (added soon).&lt;br /&gt;
+Here are some pictures of the process:&lt;br /&gt;
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;../images/final/composites_1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/composites_2.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/composites_3.jpg&quot; alt=&quot;image&quot; /&gt;
+	 &amp;lt;figcaption&amp;gt;Making composites on top of the cardboard helmet&amp;lt;/figcaption&amp;gt; 
+&lt;/figure&gt;
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	 &amp;lt;figcaption&amp;gt;composites results&amp;lt;/figcaption&amp;gt; 
+&lt;/figure&gt;  &lt;/p&gt;
+
+&lt;p&gt;The result was a really strong helmet (I could even easily stand on it, as seen in the pictures above) but I did not like the look of the burlap, and also wanted a cover that is clear, so I can add the LEDs under it.  &lt;/p&gt;
+
+&lt;p&gt;I than went on to try vacuum forming.&lt;br /&gt;
+For doing vacuum forming, you have to have a mold.  Since I wanted to use thing that were in our inventory, I decided to CNC foam.  The largest tool head in the shop that could mill the foam was 5” long. So I have to cut my model in half, and machine to pieces of 4” foam. (I glued together 2 block of foam using super 77 glue).
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;../images/final/cnc_1.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/cnc_2.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/cnc_3.jpg&quot; alt=&quot;image&quot; /&gt;
+	 &amp;lt;figcaption&amp;gt;Machining the foam to make my mold&amp;lt;/figcaption&amp;gt; 
+&lt;/figure&gt;
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;../images/final/cnc_4.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/cnc_5.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/cnc_6.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;  &lt;/p&gt;
+
+&lt;p&gt;Vacuum forming is a really quick and simple process, but it’s also a kind of art. You heat up a piece o PTEG plastic, laid above your mold,  when it’s hot enough, you take to mold up and turn on the vacuum. the hot plastic becomes flexible and get the shape of your mold.
+The hardest part is knowing exactly when the plastic is ready. If it’s not hot enough it will not be pulled all the way on the mold. If it’s too hot, it become too wide, and you get wrinkles and a mess. The difference between not hot enough and too hot is a matter of seconds. John knew it best.
+Another thing we’ve learned is that vacuum forming foam is not the best Idea. The foam gets hot and changes it shape, I also stick to the plastic.
+For preventing the sticking, I covered the mold with Gesso and let it dry, I then sprayed a lot of resales on it before every vacuum forming.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	 &lt;figcaption&gt;Vacuum forming the helmet mold.&lt;/figcaption&gt; 
+&lt;/figure&gt;
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I did not consider the shrinking of the foam during the vacuum forming. This was a problem since the plastic helmet was too small and could not fit on the cardboard. For the plastic to fit on the cardboard helmet and the helmet to also fit on my head, I had to make it really thin. My original design was 3 cm thick, the this design was 1cm thick, this was much less strong and I would only want to use the thin helmet as a last resource.
+Instead, I tried to vacuum form again, this time on a cardboard model, a little bit bigger than the helmet I would really use.&lt;br /&gt;
+I used paper mache to cover the helmet from the outside. Since I already used this technique for the composites, I knew the paper with the glue will be strong enough to handle the vacuum forces.
+I cut brown paper in pieces, and glued them on top of the helmet using All-purpose glue that I miked with a little bit of water. it’s very important that the entire piece will be covered in glue.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Cardboard and paper mache vacuum forming mold.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I again sprayed a lot of release on the model.
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&amp;lt;figcaption&amp;gt; Vacuum forming the cardboard mold&amp;lt;/figcaption&amp;gt;
+&lt;/figure&gt; &lt;/p&gt;
+
+&lt;p&gt;I tried the cardboard mold twice, the first time, it was just a little bit to cold. and did not go all the was to the edges of the mold. The second time it was way too hat, I sticked to my model and I had to throw it away. I took the almost perfect one and later used a heat gun to fit it completely on my cardboard base.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Using heat gun to fit the plastic.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;electronics&quot;&gt;Electronics&lt;/h3&gt;
+
+&lt;p&gt;The electronics part was done in parallel to the making of the helmet itself. I started out by making a small breakout board for the LSM303 - The accelerometer and compass sensor. I thought the having a compass in my helmet can be useful for other cool implementations and wanted to try it out.&lt;br /&gt;
+ I used the Application hints from the &lt;a href=&quot;http://www.st.com/web/en/resource/technical/document/datasheet/DM00027543.pdf&quot;&gt;LSM303 datasheet&lt;/a&gt;.  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Application hints from the data sheet.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Since we don’t have 4.7uF and 0.22uF capacitors in the inventory I used 2 .1uF capacitors in parallel to get .2uF, and 2 10 uF capacitors in series to get 5 uF. I designed the board in Eagle leaving large SMD pads to connect power, GND, SCL,SDA, INT1 and INT2.&lt;br /&gt;
+I also added a 3.3V regulator, do no matter what power is connected, the accelerometer always get 3.3V (Analog supply voltage 2.16 V to 3.6 V specified in the datasheet)&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Eagle schematics&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; the board I sent for milling&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; breakout board with components soldered.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;I used Neil’s reflow method to solder the tiny accelerometer component.  &lt;/p&gt;
+
+&lt;p&gt;I than tested this using a Sparkfun RedBoard (Arduino Uno compatible) and &lt;a href=&quot;https://github.com/adafruit/Adafruit_LSM303&quot;&gt;Adafruit’s LSM303 Library&lt;/a&gt;.&lt;br /&gt;
+At the first try, nothing printed to the serial port and I was very disappointed. I tested the board using a multimeter and everything seemed fine. One of the TA’s suggested that the accelerometer is not soldered to the board correctly. I used to heat gun again and pressed the component the the board really hard this time, from all it’s sides.&lt;br /&gt;
+This did the trick and this time I got values printing, corresponding the the location and acceleration of the board :).  &lt;/p&gt;
+
+&lt;p&gt;I then went on the design the main control board. I knew I would have to use a few Arduino libraries that will probably take a lot of space, so the ATtiny84 with 8 Kbytes flash memory will not be enough.
+After some research about different ATMega controllers and ATxmege, I decided to use the ATMeag328P, which was in the inventory, and is also used in Neil’s  &lt;a href=&quot;http://academy.cba.mit.edu/classes/embedded_programming/index.html&quot;&gt;hello.arduino.328P board&lt;/a&gt; that I could use as a reference for designing my board.&lt;/p&gt;
+
+&lt;p&gt;As output LEDs I used &lt;a href=&quot;https://www.adafruit.com/products/1138&quot;&gt;Adafruit NeoPixel Digital RGB LED Strip&lt;/a&gt; which is a strip of RGB LED that are separately addressable controlled by only one digital output pin.
+Adafruit website recommends using a large capacitor between VCC and GND for the LEDs, I used the larges SMD capacitor I could find which was 220 uF.
+I added connections to SDA and SCL so I could speak to the accelerometer and also used 3 digital pines for 2 capacitive touch surfaces, that will control the turning lights. (one pin for send and 2 pines for receive.) I used 5M resistors between the send and receive pins.
+Also added a lithium battery connector and an ON/OFF slider switch. I also added one connection the one Analog pin but I ended up not using this.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Eagle schematics&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; the board I sent for milling&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/final/placeholder.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Soldering the ATMega, (I ruined the first one. Then I first put solder on the copper traces and the refolwed it with the soldering iron one each leg.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/final-project/&quot;&gt;The Bike Helmet&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on December 15, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Interface and Application Programming]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week11-interface-programming/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week11-interface-programming</id>
+  <published>2015-12-02T00:00:00-05:00</published>
+  <updated>2015-12-02T00:00:00-05:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;button-input-and-led-control&quot;&gt;Button input and LED Control&lt;/h3&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week11/open.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This week’s assignment was to  write an application that interfaces with an input or output device that we made.&lt;br /&gt;
+I’ve decided to use the board I made on &lt;a href=&quot;../week6-electronics-design/index.html&quot;&gt;week 6&lt;/a&gt; which has an input device (a button), an output device (red LED) and a way to communicate with a serial port (FTDI header).&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week11/board.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; My board from week 6, with FTDI, LED and a button&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;On &lt;a href=&quot;../week8-embedded-programming/index.html&quot;&gt;week 8&lt;/a&gt; I added a bluetooth module to this board and was interested in writing an interface for that as well.&lt;/p&gt;
+
+&lt;h4 id=&quot;programming-the-board&quot;&gt;Programming the board&lt;/h4&gt;
+&lt;p&gt;In order to make an interface for the board, I had to also program the board itself.
+Since my board has an FTDI header on it. I am using serial communication for sending and receiving data from the board.
+(I’m using the Arduino &lt;a href=&quot;https://www.arduino.cc/en/Reference/SoftwareSerial&quot;&gt;SoftwareSerial library&lt;/a&gt;)  &lt;/p&gt;
+
+&lt;p&gt;The board programming is not separate from the interface programming, and I iterated over this until I got the board to do exactly what I want. (programming the board, developing the interface, changing both…)
+The board I programmed to send ‘0’ when the button is not pressed and ‘1’ when the button is pressed.&lt;br /&gt;
+Also, it turns on the LED when ‘1’ is sent, turns it off when ‘0’ is sent and blinks it when ‘2’ is sent.&lt;/p&gt;
+
+&lt;p&gt;I used the Arduino Serial Monitor to test my code. (This is the magnitude glass icon on the top left of the window)  &lt;/p&gt;
+
+&lt;p&gt;The Arduino code looks like that:  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;SoftwareSerial.h&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#define LED            7                &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// The digital connector port to LED anode&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#define BUTTON         3                &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// The digital connector port to the button&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ledState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blink_state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;previousMillis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;// will store last time LED was updated&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interval&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ 
+&lt;span class=&quot;n&quot;&gt;SoftwareSerial&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mySerial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// RX, TX &lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;pinMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OUTPUT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                  &lt;span class=&quot;c1&quot;&gt;// Set the LED output&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;pinMode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BUTTON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;INPUT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                &lt;span class=&quot;c1&quot;&gt;// Set the button input&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;digitalWrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;                &lt;span class=&quot;c1&quot;&gt;// Turn off the LED&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;mySerial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9600&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;   				 &lt;span class=&quot;c1&quot;&gt;// Init the serial port&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;digitalRead&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BUTTON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HIGH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// if the button is pressed  if (digitalRead(BUTTON) == HIGH) { // if the button is pressed&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;mySerial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;mySerial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;delay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mySerial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;available&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// if there is data available on the serial port&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mySerial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;sc&quot;&gt;&amp;#39;1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;blink_state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;digitalWrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HIGH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;sc&quot;&gt;&amp;#39;2&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;blink_state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;blink_state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;digitalWrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;currentMillis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;millis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;currentMillis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;previousMillis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// save the last time you blinked the LED&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;previousMillis&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;currentMillis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// if the LED is off turn it on and vice-versa:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blink_state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ledState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;ledState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HIGH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;ledState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// set the LED with the ledState of the variable:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;digitalWrite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ledState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;javascript-and-html-interface-programming&quot;&gt;Javascript and HTML interface programming&lt;/h4&gt;
+&lt;p&gt;I wanted to try and use javascript and HTML for the initial programming, due to a number of reasons:  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The other good option was python, which I already used a lot in the past, and I wanted to learn something new.  &lt;/li&gt;
+  &lt;li&gt;I have other projects that require web development and this was a good opportunity to improve my skills.  &lt;/li&gt;
+  &lt;li&gt;I wanted to later make this a mobile app that controls the board through Bluetooth and web development is a good starting point for later using &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt;, which I also wanted to try.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Programming the web interface was pretty straight forward using Neil’s magnet example.  &lt;/p&gt;
+
+&lt;h6 id=&quot;boardhtml-file&quot;&gt;board.html file:&lt;/h6&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;button&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onclick=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;turnOn()&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Turn on!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;itype=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;button&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onclick=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;turnOff()&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Turn off!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;itype=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;button&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onclick=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;blink()&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Blink!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;application/javascript&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rect&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;rect&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;text&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;127.0.0.1:1234&amp;quot;&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;WebSocket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;ws://&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;onopen&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;connected to &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;onerror&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;can&amp;#39;t connect to &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;onmessage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;0&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Not pressed&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Pressed!&amp;#39;&lt;/span&gt;
+		&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;.content&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+	&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;turnOn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;1&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;blink&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;2&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;turnOff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;0&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;boardjs-file&quot;&gt;board.js file:&lt;/h6&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;server_port&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;1234&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;client_address&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;127.0.0.1&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// This should match the serial port that you board is connected to&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;serial_port&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/dev/cu.usbserial-FTHBRJSI&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;baud&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9600&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;samples&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// open serial port&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SerialPort&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;serialport&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;SerialPort&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;SerialPort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serial_port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;baudrate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;baud&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;can not open &amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serial_port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;opened &amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serial_port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;data&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]));&lt;/span&gt;
+         &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;listening for connections from &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;client_address&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; on &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server_port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;ws&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Server&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;wss&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server_port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;wss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;connection&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ws&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ws&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remoteAddress&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;client_address&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;error: client address doesn&amp;#39;t match&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;connected to &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;client_address&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; on port &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server_port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+   &lt;span class=&quot;c1&quot;&gt;// when recieving data from the websocket, send it to the serial port  &lt;/span&gt;
+   &lt;span class=&quot;nx&quot;&gt;ws&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;message&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;received: %s&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+   &lt;span class=&quot;c1&quot;&gt;// when recieving data from serial port - send it to the web socket&lt;/span&gt;
+   &lt;span class=&quot;nx&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;data&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;ws&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]));&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+   &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For running this you have to install &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt; 
+And also websocket and serial port packages: &lt;code&gt;npm install ws and serialport&lt;/code&gt;&lt;br /&gt;
+You then run &lt;code&gt;node board.js&lt;/code&gt; from the command line and open the board.html file in you favorite browser.&lt;/p&gt;
+
+&lt;p&gt;This looks like that:&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week11/screen.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Controlling the board from the html window on my computer&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In this simple interface I can see the button state and control the LED. This is just a simple “Hello world” app for my board. The possibilities are endless and I had many ideas such as a game testing your reaction time to random LED blinking, and playing music and drawing using only the button.&lt;/p&gt;
+
+&lt;p&gt;I really wanted to try and write a mobile app that controls my board via Bluetooth so I left this simple at the meantime.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-mobile-app-using-bluetooth&quot;&gt;A mobile app using Bluetooth.&lt;/h3&gt;
+&lt;p&gt;I never wrote a mobile app before and this week was a great opportunity to learn a little bit about that and try using the &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic Framework&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As, mentioned, during &lt;a href=&quot;../week8-embedded-programming/index.html&quot;&gt;week 8&lt;/a&gt;, I made an adapter that connects my board’s serial port to a Bluetooth module (an HM-10 BLE, BLE stands for &lt;a href=&quot;https://en.wikipedia.org/wiki/Bluetooth_low_energy&quot;&gt;Bluetooth Low Energy&lt;/a&gt;)&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week11/module.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; board from [week 8](../week8-embedded-programming/index.html) connected to a bluetooth module&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;First I used a Bluetooth app to see if i can send and receive data to my board via bluetooth.&lt;br /&gt;
+I used &lt;a href=&quot;https://itunes.apple.com/us/app/lightblue/id639944780?mt=12&quot;&gt;Light blue&lt;/a&gt; which is a mac app, but there are plenty of similar applications for different OS and also for mobile devices.
+I connected to HMSoft and sent ‘0’, ‘1’, ‘2’ to the board, this functioned as expected so I continued. &lt;/p&gt;
+
+&lt;p&gt;I then started developing my app.&lt;br /&gt;
+Since I never used ionic before, I started with watching this &lt;a href=&quot;https://www.youtube.com/watch?v=C-UwOWB9Io4&amp;amp;feature=youtu.be&quot;&gt;20 min Ionic crah cours video&lt;/a&gt;  &lt;/p&gt;
+
+&lt;p&gt;Then, I searched online for examples using Ionic and a bluetooth serial port, there are many different plugins for that.  &lt;/p&gt;
+
+&lt;p&gt;I found this example :&lt;a href=&quot;https://github.com/don/ionic-ble&quot;&gt;https://github.com/don/ionic-ble&lt;/a&gt; and tested it on my phone, it worked and this plugin includes all the BLE functions I needed so I decided to use that.&lt;/p&gt;
+
+&lt;p&gt;I changed the interface and added buttons that sends messages to the board, and also constantly receiving notifications from it while connected.
+The code can be found &lt;a href=&quot;https://github.com/jasrub/ionic-ble&quot;&gt;here&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.14/people/tomer_weller/index.html&quot;&gt;Tomer&lt;/a&gt; helped me a lot in debugging this and figuring out what exactly I should send to the bluetooth (A string converted to an ArrayBuffer).  &lt;/p&gt;
+
+&lt;p&gt;The final result is a cute mobile app that can connect to the HMSoft and send “Turn On”, “Turn Off” or “Blink” commands to it.
+When the button on the board is pressed the background of the app becomes red.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week11/red.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Pressing the button makes app background red&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week11/app.gif&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This is also a very simple app but it took me a long time to figure out the routing, and what commands I should use. making the app more interesting is much easier from this point.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week11-interface-programming/&quot;&gt;Interface and Application Programming&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on December 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Input Devices]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week10-input-devices/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week10-input-devices</id>
+  <published>2015-11-25T00:00:00-05:00</published>
+  <updated>2015-11-25T00:00:00-05:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;accelerometer&quot;&gt;Accelerometer&lt;/h3&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week10/accelerometer.png&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This week’s assignment was to measure something - adding a sensor to a microcontroller board that we have designed and read it.&lt;br /&gt;
+Still working towards my &lt;a href=&quot;../week1-computer-aided-design/index.html&quot;&gt;final project&lt;/a&gt; I wanted to try and work with a 3d accelerometer, so I can later add one to my smart helmet and use it to detect braking and turn on braking lights.  &lt;/p&gt;
+
+&lt;h4 id=&quot;board-design&quot;&gt;Board Design&lt;/h4&gt;
+&lt;p&gt;I wanted to use both the &lt;a href=&quot;http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf&quot;&gt;ADXL343&lt;/a&gt; Accelerometer and an RGB LED to show the accelerometer read values.
+PA4 and PA6 an the Attiny 44 are SCL and SDA for connecting to the accelerometer.&lt;br /&gt;
+For the RGB LED I just made sure I’m using PWM pins (so I’ll be able to program this with Arduino IDE later).&lt;br /&gt;
+I also added a FTDI header for calibration and debugging the board, and a battery connector so I can move my small board around, attach it to my bike helmet, etc.&lt;br /&gt;
+The ADXL343 needs 3.3V so I’ve added a regulator and calculated the resistors values for the LED the match that.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week10/schematics.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; My board Eagle schematic&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week10/board.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/sparkfun/SparkFun-Eagle-Libraries&quot;&gt;Sparkfun’s Eagle libraries&lt;/a&gt; has an ADXL345 lib (in sensor’s category) which I used for the accelerometer. I had to tweak the pads sizes to be able to mill it with a 1/64” endmill.
+For doing that:&lt;br /&gt;
+- From eagle main screen, locate the part you want to edit and double click on it.&lt;br /&gt;
+- This will open the part edit screen.&lt;br /&gt;
+- On the left toolbar - press the wrench tool, the choose SMD and choose the desired pad size.&lt;br /&gt;
+- click on each pad you need to tweak. rotate and move if needed.    &lt;/p&gt;
+
+&lt;p&gt;On the first iteration I forgot to route the Accelerometer SDA pin to the microcontroller and this took me a while to debug. &lt;/p&gt;
+
+&lt;h4 id=&quot;making-the-board&quot;&gt;Making the Board&lt;/h4&gt;
+&lt;p&gt;This process took the longest time this week, which I didn’t expected since I made a bunch of boards before.
+The reasons for the long time varied - the milling was not great, since the ADXL 345 pads are really tiny, some of the copper pads fell off the board during the milling.&lt;br /&gt;
+I tried using a 0.010” endmill but it broke a few seconds after the milling started.&lt;br /&gt;
+I also made the outline file wrong and it removed on of the traces (which I fixed with a jumper wire).&lt;br /&gt;
+Some of the issues I found out only later into soldering a wrong milled board, so a big lesson I learned this week was - &lt;strong&gt;Always test the board very very carefully before you start soldering&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week10/boards.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Some of the milled boards I collected this week&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week10/missing_traces.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Missing traces I found out missing only when done soldering&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Another big challenge in making the board was soldering the tiny accelerometer.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week10/finger.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; The accelerometer on my finger - tiny&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Neil showed a nice method of doing reflow using the hot air gun, which looks so pretty and simple on &lt;a href=&quot;http://academy.cba.mit.edu/classes/input_devices/accel/hello.ADXL343.reflow.jpg&quot;&gt;this picture&lt;/a&gt;&lt;br /&gt;
+When I tried, it turned out to be a little bit more complicated.&lt;br /&gt;
+I shortened the board a few times and did not connect the accelerometer correctly a few times until I learned the exact amount of solder to use and right amount of time to reflow.
+I still don’t master this method but I certainly improved.&lt;/p&gt;
+
+&lt;p&gt;One good thing to do is to start with soldering the accelerometer on an empty board, then using a multimeter to test that nothing is shortened before continuing to the other parts.&lt;/p&gt;
+
+&lt;p&gt;Each time after I finished soldering a board I tried uploading Neil’s example codes for RGD LED and the ADXL to make sure everything works. most of the times the RGB LED worked perfect but no input from the accelerometer.&lt;/p&gt;
+
+&lt;p&gt;After some trial and error, debugging and desoldering, I got a working board.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week10/final.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Final board&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;programming-the-board&quot;&gt;Programming the Board&lt;/h4&gt;
+&lt;p&gt;All the making issues I had this week did not leave much time for programming the board and I didn’t get the chance to work on detecting a brake as I originally planned.&lt;br /&gt;
+Now that I have the board working though, I’m hoping to get back to this before the final project submission.  &lt;/p&gt;
+
+&lt;p&gt;Instead I read the X Y Z values from the Accelerometer and change the RGB color accordingly.
+I used  Adafruit’s &lt;a href=&quot;https://github.com/adafruit/TinyWireM&quot;&gt;TinyWireM library&lt;/a&gt; to read the accelerometer values.&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+	&lt;img src=&quot;../images/week10/green.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week10/blue.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;img src=&quot;../images/week10/yellow.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt;The LED changing colors according to the board position&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week10-input-devices/&quot;&gt;Input Devices&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on November 25, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Output Devices]]></title>
+  <link rel="alternate" type="text/html" href="http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week9-output-devices/" />
+  <id>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week9-output-devices</id>
+  <published>2015-11-13T00:00:00-05:00</published>
+  <updated>2015-11-13T00:00:00-05:00</updated>
+  <author>
+    <name>Jasmin Rubinovitz</name>
+    <uri>http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz</uri>
+    <email>jasrub@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;light-and-sound&quot;&gt;Light and Sound&lt;/h3&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/open.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This week’s assignment was to add an output device to a microcontroller board we’ve designed and program it to do something.&lt;br /&gt;
+Since final assignments deadline is getting closer I’m trying to make things that I can use for my &lt;a href=&quot;../week1-computer-aided-design/index.html&quot;&gt;final project&lt;/a&gt; as well.&lt;br /&gt;
+I want my smart helmet to have LEDs on it, that will blink when I turn, and also a speaker inside, to give me directions.  So for this week’s assignment I wanted to make a microcontroller board with a speaker and LED Array.&lt;/p&gt;
+
+&lt;h4 id=&quot;board-design&quot;&gt;Board Design&lt;/h4&gt;
+&lt;p&gt;I’ve looked at Neil’s designs for &lt;a href=&quot;http://academy.cba.mit.edu/classes/output_devices/array/hello.array.44.2.png&quot;&gt;LED array board&lt;/a&gt; and a &lt;a href=&quot;http://academy.cba.mit.edu/classes/output_devices/speaker/hello.speaker.45.png&quot;&gt;speaker board&lt;/a&gt;
+And combined them to a new board using Eagle.
+I’ve added a button, a jack for power, and a green LED between VCC and ground that is turned on when the board is connected to power.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/schematic.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; My board Eagle schematic&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/board.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;All files for making the board can be &lt;a href=&quot;https://github.com/jasrub/HowToMake/tree/master/files/week9/light_and_sound_board&quot;&gt;found here&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;The LED Array is done using 20 LEDs and only 5 pins with the great &lt;a href=&quot;https://en.wikipedia.org/wiki/Charlieplexing&quot;&gt;Charlieplexing&lt;/a&gt; technique.&lt;/p&gt;
+
+&lt;p&gt;Neil is using a nice trick in the LED Array to avoid the use of a lot of resistors and keep the board cleaner - 
+There are 2 layers to the board, and they are separated with a vinyl-cut epoxy film sticker.
+For doing this:&lt;br /&gt;
+You first mill the traces of the board as usual.&lt;br /&gt;
+Then, you vinyl-cut epoxy film and stick it on top of the board.&lt;br /&gt;
+The you vinyl-cut coper and stick it on top of the epoxy film.  &lt;/p&gt;
+
+&lt;h6 id=&quot;to-create-the-vinyl-cutting-files-in-eagle&quot;&gt;To create the vinyl cutting files in eagle:&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;The epoxy-film sticker:&lt;/strong&gt;&lt;br /&gt;
+When you are done designing the board hit &lt;em&gt;display none tCream&lt;/em&gt;
+Then go to view-&amp;gt; Layer settings and click on Change. Choose a solid filling for the tCream objects and export as a monochrome with 600 DPI
+I then used Photoshop (But any simple paint software will work) to crop and invert the exported image.&lt;br /&gt;
+&lt;strong&gt;Copper traces on top:&lt;/strong&gt;&lt;br /&gt;
+The important thing to remember here is that the vinyl cutter resolution is not the same as the milling machine’s. &lt;strong&gt;Use thicker lines&lt;/strong&gt;. The rest is easy, draw the traces on a different layer (I used bottom since I have the free version of Eagle and it only allows 2 layers) and export this layer only.  Again, invert and crop in any paint software.&lt;/p&gt;
+
+&lt;h4 id=&quot;making-the-board&quot;&gt;Making the Board&lt;/h4&gt;
+&lt;p&gt;Same process as making boards in the recent weeks. By now I got much better and faster in producing boards :)
+(And an LED Array requires A LOT of soldering).  &lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/milled_board.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; First version of the board milled, you can see that the milling was not great&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/sticker.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; putting the epoxy film sticker&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/with_copper.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; And the copper traces&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;(On the first version of my board I added another black vinyl sticker, just for the color, this was a mistake since the vinyl melts under soldering heat.)&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/stuffed.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; Stuffed board - second and better version&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;programming-the-board&quot;&gt;Programming the Board&lt;/h4&gt;
+&lt;p&gt;This is the fun stage of testing and playing around.
+I first tested that each output device works by uploading Neil’s code.
+The LED Array was great:&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/array.gif&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; LED array at action&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The speaker was not that simple - when first uploading Neil’s code nothing happened. 
+(I suspected this was related to the fact the I used an Atitny 44 while Neil used Attiny 45 but did not succeed in debugging this, The code did compile and uploaded successfully to my board, now I’m thinking this was a power issue and I should test this again with a different power supply).
+I then tried using Arduino Tone() library, but still, I heard nothing out of the speaker.&lt;br /&gt;
+After some reading around the web, I found &lt;a href=&quot;http://web.media.mit.edu/~leah/LilyPad/07_sound.html&quot;&gt;leah buechley’s code for getting sound from a LilyPad&lt;/a&gt; and this magically worked.  &lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PyxY3bH1KXU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This was still not stable and the speaker would sometimes just click when I pressed to button. That issue eventually resolved by replacing the power supply to higher current (1 amp instead of 0.2). Next time I should add a resistor to the speaker to solve that.  &lt;/p&gt;
+
+&lt;p&gt;Then I had a lot of fun playing different 8 bit tunes I found online and composed my self, and lighting the LED’s in different shapes&lt;/p&gt;
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/heart.jpg&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; A blinking heart&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;../images/week9/arrow_blink.gif&quot; alt=&quot;image&quot; /&gt;
+	&lt;figcaption&gt; A moving arrow I can use on my helmet to signal turning direction&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Eventually, I experimented with combining the light and sound output - I’ve created random lights that are show with each note of the annoying sound being played :)&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Foc7ZxowAzc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;My code is a combination of Leah’s sound_code and Neil’s &lt;a href=&quot;http://academy.cba.mit.edu/classes/output_devices/array/hello.array.44.2.c&quot;&gt;hello.array.44.2&lt;/a&gt;
+And it uses “pitches.h” from the Arduino Tone() Library.
+&lt;a href=&quot;https://github.com/jasrub/HowToMake/tree/master/files/week9/light_and_sound&quot;&gt;Get it here&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week9-output-devices/&quot;&gt;Output Devices&lt;/a&gt; was originally published by Jasmin Rubinovitz at &lt;a href=&quot;http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz&quot;&gt;Jasmin Rubinovitz&lt;/a&gt; on November 13, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -64,7 +725,7 @@ Another thing to notice is the clock settings in Arduino. My board has a 20Mhz C
 	&lt;figcaption&gt; programming the board using the programmer I made on &lt;b&gt;&lt;a href=&quot;../week3-electronics-production/index.html&quot;&gt;week 3&lt;/a&gt;&lt;/b&gt; &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The sketch itself can be downloaded from &lt;a href=&quot;../images/week8/my_morse.ino&quot;&gt;here&lt;/a&gt;.
+&lt;p&gt;The sketch itself can be downloaded from &lt;a href=&quot;https://github.com/jasrub/HowToMake/tree/master/files/week8&quot;&gt;here&lt;/a&gt;.
 I used binary numbers to represent to Morse code, in order to save space. 
 A dot is represented by 0 and a dash by 1. All letters are sorted in an array and each letter location is it’s Morse code.
 Sorting the letters in the array is simple - since Morse letters can be sorted by a &lt;a href=&quot;http://apfelmus.nfshost.com/articles/fun-with-morse-code/morse-tree.png&quot;&gt;binary tree&lt;/a&gt; I just made a string of all the letters in the tree going over each row from left to right, adding question marks instead of empty node in the tree.&lt;/p&gt;
@@ -474,13 +1135,7 @@ In the original idea, since this is used as a zome, the helixes go from 0 to Pi.
 &lt;/figure&gt;
 &lt;p&gt;I then added more modifications - Creating a small zome inside the zome, and making a zome from single helixes (removing the second for loop from the code).&lt;/p&gt;
 
-&lt;p&gt;My grasshopper scripts can be downloaded here:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;../helix_zome.gh&quot;&gt;Basic zome&lt;/a&gt;  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;../zome_small_inside.gh&quot;&gt;zome with small zome inside&lt;/a&gt;  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;../zome_one_side.gh&quot;&gt;zome with only one set of helixes&lt;/a&gt;  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;My grasshopper scripts can be &lt;a href=&quot;https://github.com/jasrub/HowToMake/tree/master/files/week4&quot;&gt;downloaded here&lt;/a&gt;. &lt;/p&gt;
 
 &lt;h5 id=&quot;printing&quot;&gt;Printing&lt;/h5&gt;
 &lt;p&gt;I’ve printed the three variations of the zome to test different printing options and parameters.  &lt;/p&gt;

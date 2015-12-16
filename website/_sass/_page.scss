@@ -315,7 +315,7 @@ span + .entry-title {
    float: left;
    width: 11.5em;
    height:11.5em;
-   margin: 1.2em;
+   margin: 1em;
    overflow: hidden;
    position: relative;
    margin-bottom: 0;
@@ -382,13 +382,6 @@ justify-content: center;
   		visibility: visible;
   		opacity: 1;
 	}
-   .gallery li:nth-child(odd) {
-   clear: left;
-   }
-
-   .gallery li:nth-child(3n+1) {
-   clear: left;
-   }
    .gallery li:nth-child(odd) {
    clear: none;
    }

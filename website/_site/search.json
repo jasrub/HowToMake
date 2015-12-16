@@ -2,6 +2,38 @@
 
   
     {
+      "title"			: "The Bike Helmet",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/final-project/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Interface and Application Programming",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week11-interface-programming/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Input Devices",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week10-input-devices/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Output Devices",
+      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week9-output-devices/",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "Embedded Programming & Networking and Communications",
       "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/week8-embedded-programming/",
       "excerpt"		: ""
@@ -78,12 +110,6 @@
 
   
 
-  
-    ,{
-      "title"			: "About  Me",
-      "link"			: "http://fab.cba.mit.edu/classes/863.15/section.CBA/people/Rubinovitz/about/",
-      "excerpt"		: ""
-    }
   
 
   

@@ -46,7 +46,7 @@ Other than that I found it very nice to program the board using the Arduino IDE,
 	<figcaption> programming the board using the programmer I made on <b><a href="../week3-electronics-production/index.html">week 3</a></b> </figcaption>
 </figure>  
 
-The sketch itself can be downloaded from [here](../images/week8/my_morse.ino).
+The sketch itself can be downloaded from [here](https://github.com/jasrub/HowToMake/tree/master/files/week8).
 I used binary numbers to represent to Morse code, in order to save space. 
 A dot is represented by 0 and a dash by 1. All letters are sorted in an array and each letter location is it's Morse code.
 Sorting the letters in the array is simple - since Morse letters can be sorted by a [binary tree](http://apfelmus.nfshost.com/articles/fun-with-morse-code/morse-tree.png) I just made a string of all the letters in the tree going over each row from left to right, adding question marks instead of empty node in the tree.

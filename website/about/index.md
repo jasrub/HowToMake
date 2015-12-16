@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "About  Me"
+weekNum: "About  Me"
+title: ""
 excerpt: ""
 ---
 

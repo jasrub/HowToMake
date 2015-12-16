@@ -35,11 +35,7 @@ In the original idea, since this is used as a zome, the helixes go from 0 to Pi.
 </figure>  
 I then added more modifications - Creating a small zome inside the zome, and making a zome from single helixes (removing the second for loop from the code).
 
-My grasshopper scripts can be downloaded here:
-
-* [Basic zome](../helix_zome.gh)  
-* [zome with small zome inside](../zome_small_inside.gh)  
-* [zome with only one set of helixes](../zome_one_side.gh)  
+My grasshopper scripts can be [downloaded here](https://github.com/jasrub/HowToMake/tree/master/files/week4). 
 
 
 ##### Printing
